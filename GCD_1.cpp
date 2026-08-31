@@ -5,6 +5,7 @@ using namespace std;
 int findgcd(int n1,int n2)
 {
     int gcd=1;
+
     if (n1==0 || n2==0)
     {
         return gcd=0;
