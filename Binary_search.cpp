@@ -8,7 +8,7 @@ int Binary_search (int first, int last,int target, vector<int>& arr )
     {
         return -1;
     }
-    int mid= first+last/2;
+    int mid= first+(last-first)/2;
     if(target>arr.at(mid))
     {
        return Binary_search(mid+1,last,target,arr);
