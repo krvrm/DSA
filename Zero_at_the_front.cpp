@@ -15,11 +15,11 @@ class Zero_at_front
         {
             i++;
         }
-        if(arr[j]!=0)
+        else if(arr[j]!=0)
         {
             j--;
         }
-        if(arr[i]!=0 && arr[j]==0)
+        else
         {
             swap(arr[i], arr[j]);
             j--;
