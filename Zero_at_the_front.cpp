@@ -55,3 +55,8 @@ int main()
 // Enter the number of elements 8
 //Enter the elements 0 1 2 3 0 4 0 8
 //00302418
+
+//After Update
+//Enter the number of elements 8
+//Enter the elements 0 1 2 3 0 4 0 8
+//00032418
