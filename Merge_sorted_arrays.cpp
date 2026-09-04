@@ -30,8 +30,9 @@ class Merge_sorted_arrays
             i++;
         }
         else{
-            if (arr.empty() || arr.back() != arr1[i])
+            if (arr.empty() || arr.back() != arr1[i]){
                     arr.push_back(arr1[i]);
+            }
             i++;
             j++;
             
