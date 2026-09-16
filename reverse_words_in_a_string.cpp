@@ -43,7 +43,7 @@ class reverse_words_in_a_string
 };
 int main() {
     reverse_words_in_a_string obj;
-    string s = " amazing coding skills ";
+    string s = " The lion in the jungle ";
     cout << obj.reverse(s) << endl;
     return 0;
 }
