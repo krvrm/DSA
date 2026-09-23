@@ -14,6 +14,10 @@ class Armstrong
             copy=copy/10;
             count++;
         }
+        if(n==0)
+        {
+            sum=0;
+        }
         while(n>0)
         {
             rem=n%10;
